@@ -1,0 +1,227 @@
+*{
+	box-sizing: border-box;
+}
+
+body {  font-family: 'Vidaloka';
+}
+
+
+.tab {
+  overflow: hidden;
+  margin-bottom: 19px;
+
+}
+
+.tab button {
+
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 15px;
+  transition: 0.3s;
+  font-size: 17px;
+  width: 33.33%;
+  font-size: 25px;
+   background: #E4DFD7;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #B2936D;
+  color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 0px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/*__________________- part:1-______________*/
+
+.country{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	  /*padding-left: 20px;*/
+    /*padding-right: 21px;*/
+	background-color: #fff;
+	margin-bottom:20px;
+}		
+.w_2{
+	/*flex: 16.66666667%;*/
+	float: left;
+}
+.W_10 {
+    /*flex: 0 0 83.3333%;*/
+}
+.form_contr{
+	display: block;
+    width: 76.33%;
+    height: 54px;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #8A8D9F;
+}
+.chak_con{
+	padding: 0 19px;
+}
+.chak_con h3{
+    margin: 17px 0;
+}
+.form_input{
+    width: 100%;
+    height: 48px;
+    padding: 6px 12px;
+    font-size: 17px;
+    line-height: 1.42857143;
+    color: #8A8D9F;
+    border: 1px solid #8A8D9F;
+   font-family: 'Montserrat', sans-serif;
+}
+.fomr_cen{
+	max-width: 79%;
+    margin: 0 auto;
+}
+.label_font{
+    /*font-family: 'Vidaloka';*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #A9A9A9;
+}
+.mar_form{
+    margin-bottom: 18px;
+}
+.mar_btn{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.continue{
+    color: #fff;
+    padding: 13px 43px;
+    background-color: #b2936d;
+    font-size: 21px;
+   font-family: 'Montserrat', sans-serif;
+
+}
+.fomr_cen h3{
+	margin-bottom: 20px;
+}
+.label_font_bod{
+	    font-size: 25px;
+    font-weight: 400;
+}
+
+
+
+
+
+/*----------------------*/
+.form-group{
+	width: 100%;
+	border: 1px solid black;
+	padding: 10px;
+}
+.form-style-1 {
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	-moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+	width: 49%;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #4691A4;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.form-style-1 .required{
+	color:red;
+}
